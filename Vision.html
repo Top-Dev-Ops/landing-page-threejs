@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vision</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- import bootstrap 4 -->
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+      body {
+        position: relative;
+        overflow: auto;
+        width: 100%;
+        height: 100%;
+        background-color: black !important;
+      }
+      .container-fluid {
+        width: 100%;
+      }
+
+      .section {
+        min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+        min-height: 100vh; /* These two lines are counted as one :-)       */
+      }
+
+      .title {
+        font-size: 24pt;
+        font-family: "ModernSans-Light", sans-serif !important;
+      }
+
+      .illustration {
+        font-size: 13pt;
+        text-align: justify;
+        font-family: "ModernSans-Light", sans-serif !important;
+      }
+
+      a u {
+        font-size: 12pt;
+      }
+
+      .back-top {
+        font-size: 10pt;
+      }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+    <div style="z-index: 2; position: fixed; margin-top: 1vh; margin-left: 2vw">
+      <a href="./"><img src="res/svg/close.svg" width="50vw" /> </a>
+    </div>
+    <div id="section0" class="container-fluid section">
+      <div class="row justify-content-center align-items-center" style="height: 25vh">
+        <div class="title col-sm-12">
+          <p class="text-white">Vision</p>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-8">
+          <p class="text-white illustration">
+            Our vision is to be nationally recognized for bringing <b><i>Change</i></b> to the
+            financial services industry. The financial services industry is overrun by
+            misinformation, misleading marketing, and corruption. All of this comes, not only at the
+            monetary expense of the consumer, but also at the expense of his or her dreams.
+            <b><i>Change</i></b> is a necessity for our sustainability as an economy and as
+            individuals. <b>The Fitzpatrick Group</b> embodies that <b><i>CHANGE</i></b
+            >.
+            <br />
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- hamburger Menu -->
+    <div
+      class="dd"
+      id="hamburgerMenu"
+      onclick="toggleOverlay()"
+      style="visibility: visible; opacity: 1"
+    >
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false">
+        <span class="screen-reader-text">Menu</span>
+        <svg
+          class="icon icon-menu-toggle"
+          aria-hidden="true"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 100 100"
+        >
+          <defs id="defs4">
+            <filter id="hamglow" x="-50%" y="-50%" height="500%" width="500%">
+              <feDropShadow dx="0" dy="0" stdDeviation="5.9" flood-color="skyblue" />
+            </filter>
+          </defs>
+          <g class="svg-menu-toggle">
+            <g
+              style="opacity: 1; stroke: #000000; stroke-opacity: 1; fill: #030303; fill-opacity: 1"
+              id="g871"
+              filter="url(#hamglow)"
+            >
+              <path
+                d="M 5,13 H 95 V 27 H 5 Z"
+                style="
+                  opacity: 0.700741;
+                  fill: #030303;
+                  fill-opacity: 1;
+                  stroke: #000000;
+                  stroke-width: 1.33417;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-opacity: 1;
+                "
+                id="rect841"
+                filter="url(#hamglow)"
+              />
+              <path
+                d="M 5.0000038,43 H 95.000004 V 57 H 5.0000038 Z"
+                style="
+                  opacity: 0.700741;
+                  fill: #030303;
+                  fill-opacity: 1;
+                  stroke: #000000;
+                  stroke-width: 1.33417;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-opacity: 1;
+                "
+                id="rect841-9"
+                filter="url(#hamglow)"
+              />
+              <path
+                d="M 5,73 H 95 V 87 H 5 Z"
+                style="
+                  opacity: 0.700741;
+                  fill: #030303;
+                  fill-opacity: 1;
+                  stroke: #000000;
+                  stroke-width: 1.33417;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-opacity: 1;
+                "
+                id="rect841-5"
+                filter="url(#hamglow)"
+              />
+            </g>
+
+            <path class="line line-1" d="M5 13h90v14H5z" fill="#c7c5c5" filter="url(#hamglow)" />
+            <path class="line line-2" d="M5 43h90v14H5z" fill="#c7c5c5" filter="url(#hamglow)" />
+            <path class="line line-3" d="M5 73h90v14H5z" fill="#c7c5c5" filter="url(#hamglow)" />
+          </g>
+        </svg>
+      </button>
+      <input type="checkbox" id="hmCheck" />
+      <div class="dd-c">
+        <ul>
+          <li>
+            <a href="Vision.html"><span>Vision</span></a>
+          </li>
+          <li>
+            <a href="Mission.html"><span>Mission</span></a>
+          </li>
+          <li>
+            <a href="Ethos.html"><span>Ethos</span></a>
+          </li>
+          <li>
+            <a href="Welcome.html"><span>About The Website</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- overlay effect -->
+    <div id="overlay" onclick="off()"></div>
+
+    <script src="js/mvew.js"></script>
+  </body>
+</html>

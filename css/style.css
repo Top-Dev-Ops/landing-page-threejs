@@ -1,0 +1,792 @@
+@font-face {
+  font-family: "ModernSans-Light";
+  src: url("fonts/ModernSans-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "VenusRising-Regular";
+  src: url("fonts/VenusRising.ttf") format("truetype");
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  background-color: black;
+}
+
+.details {
+  background: transparent;
+
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+}
+
+.contact-us-three-options,
+.contact-us-two-options {
+  background: transparent;
+
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* --------- Scene 1 ---------- */
+.company-logo-name-page {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background: black;
+
+  transform-origin: center;
+}
+
+.company-logo-name-page svg {
+  width: 60vw;
+  height: 60vh;
+}
+
+/*  --------- Scene 2 -------- */
+.welcome-page {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background: black;
+}
+
+.welcome-page #message h3 {
+  position: absolute;
+  color: white;
+  font-size: 7vw;
+  font-family: "VenusRising-Regular";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-page #message h3 span {
+  color: red;
+}
+/* --------- floating-logo ------*/
+.floating-logo {
+  position: absolute;
+  z-index: 1;
+  margin-top: 1vh;
+  margin-left: 2vw;
+  font-family: "VenusRising-Regular";
+}
+
+#fl-contact svg {
+  width: 5vmin;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#fl-contact span {
+  font-size: 2vmin;
+  vertical-align: middle;
+  color: white;
+  margin-left: 5%;
+  white-space: nowrap;
+}
+
+#fl-back img {
+  vertical-align: middle;
+  width: 2vmin;
+}
+
+#fl-back span {
+  font-size: 3.5vmin;
+  color: white;
+  vertical-align: middle;
+}
+
+/* flashingLogoCopy */
+#flashingLogoCopy {
+  position: absolute;
+  z-index: 1;
+  width: 5vmin;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* --------- Scene 3 ---------- */
+
+.mainContent {
+  background: transparent;
+
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo svg {
+  width: 10vmin;
+  height: 10vmin;
+}
+.mainContent-title {
+  font-size: 4vmin;
+  font-family: "VenusRising-Regular";
+  color: white;
+}
+.wrapper {
+  vertical-align: middle;
+  padding: 0 0 0 3%;
+  display: inline-block;
+  overflow: hidden;
+}
+.description {
+  height: 8vmin;
+  font-size: 3.5vmin;
+  margin-left: 10vmin; /*  20%  */
+  margin-top: -1vh;
+  margin-bottom: 0.5vh;
+  font-family: "ModernSans-Light", sans-serif !important;
+  font-weight: 100;
+  color: white;
+  padding-left: 4%;
+}
+/*  ------ scene 4 ------- */
+
+.contactInfo-3 div {
+  margin: 2vh;
+  text-align: left;
+  font-size: 3.5vmin;
+  font-weight: 100;
+  color: white;
+  overflow: visible;
+  white-space: nowrap;
+}
+
+@media only screen and (orientation: portrait) {
+  .contactInfo-3 div {
+    display: inline-block;
+    margin: 1vh;
+    width: 50vw;
+  }
+}
+
+.contactInfo-3 img {
+  width: 6vmin;
+  height: 4vmin;
+}
+
+.contactInfo-3 svg {
+  /* width: 48vw; */
+  width: 60vw;
+  height: 18vmin;
+  cursor: pointer;
+}
+
+/* ---- scene 5 ----- */
+
+/* main div css */
+.page-content {
+  color: white;
+  text-shadow: 0px 6px 8px rgb(155, 153, 153), 1px 1px 10px #ccc;
+}
+
+.title {
+  font-size: 20pt;
+  font-family: "VenusRising-Regular";
+  text-align: center;
+  margin: 3% auto;
+  text-shadow: 2px 2px 10px rgb(202, 202, 202);
+}
+.title span p {
+  position: absolute;
+  font-size: 12pt;
+  filter: blur(3px);
+  opacity: 0.5;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mbr-text,
+.mbr-text a {
+  font-size: 13pt;
+  text-align: justify;
+  font-family: "ModernSans-Light", sans-serif;
+}
+
+.pdf-button {
+  z-index: 2;
+  color: white !important;
+  border: none;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  display: block;
+  pointer-events: all;
+}
+
+.pdf-button span {
+  text-decoration-line: underline;
+}
+
+.pdf-button:active {
+  outline: none;
+}
+
+.pdf-button:focus {
+  outline: 0;
+}
+
+.pdf-button img {
+  width: 5vmin;
+  height: 4vmin;
+  margin-right: 1vmin;
+}
+
+.getStarted {
+  /* .page-content svg  */
+  width: 35vw;
+  height: 10vmin;
+  text-shadow: none;
+  margin: 3%;
+}
+
+button {
+  background: none;
+  color: white;
+  align-content: center;
+  border: none;
+  outline: none;
+}
+
+.backBtns {
+  width: 24vw;
+  height: 4vh;
+  font-family: "VenusRising-Regular";
+  border: none;
+  outline: none !important;
+  font-size: 2vmin;
+}
+
+.backBtns img {
+  width: 2vmin;
+  height: 1.5vmin;
+}
+
+.details-title {
+  height: 25%;
+}
+
+.details-pdf {
+  height: max-content;
+}
+.details-button {
+  margin-bottom: 3%;
+}
+
+/* -----  scene 6 ------ */
+
+.contactInfo-2 div {
+  margin: 2vh;
+  font-size: 2.5vh;
+  font-weight: 100;
+  color: white;
+}
+
+.contactInfo-2 img {
+  width: 6vmin;
+  height: 6vmin;
+  margin-bottom: 1vmin;
+}
+
+.contactInfo-2 svg {
+  width: 40vw;
+  height: 12vmin;
+  cursor: pointer;
+}
+
+.contactInfo-2 span {
+  margin-left: 1vw;
+}
+
+/* ----- 3D animation scene ------- */
+.threeD-panel {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+}
+
+/* flashing button */
+.path {
+  stroke-width: 2;
+  stroke: white;
+  fill: transparent;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+}
+
+/*  for clicking part  */
+.logo,
+.floating-logo,
+.backBtns,
+.getStarted,
+.mainContent-title {
+  pointer-events: auto;
+}
+
+.logo,
+.floating-logo,
+.backBtns,
+.getStarted,
+.wrapper :hover {
+  cursor: pointer !important;
+}
+
+/* hamburger menu */
+
+#hamburgerMenu {
+  position: fixed;
+  z-index: 2;
+  top: 1vh;
+  right: 1vw;
+  visibility: hidden;
+  opacity: 0;
+  font-weight: bold;
+}
+
+input[type="button"] {
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+}
+
+.menu-toggle {
+  font-size: 0.875em;
+  padding: 1em;
+}
+.menu-toggle:focus {
+  outline: thin dotted;
+  outline-offset: -2px;
+}
+
+.icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  position: relative; /* Align more nicely with capital letters */
+  top: -0.0625em;
+}
+
+/* Menu toggle styles. */
+
+.icon-menu-toggle {
+  width: 2em;
+  height: 2em;
+  top: 0;
+}
+
+/* Animate menu icon (lines). */
+.svg-menu-toggle .line {
+  opacity: 1;
+  transform: rotate(0) translateY(0) translateX(0);
+  transform-origin: 1em 1em;
+  transition: transform 0.3s ease-in-out, opacity 0.2s ease-in-out;
+}
+.svg-menu-toggle .line-1 {
+  transform-origin: 1em 2.5em;
+}
+.svg-menu-toggle .line-3 {
+  transform-origin: 1em 4.5em;
+}
+
+.menu-toggle.opened .svg-menu-toggle .line-1 {
+  transform: rotate(45deg) translateY(0) translateX(0);
+}
+.menu-toggle.opened .svg-menu-toggle .line-2 {
+  opacity: 0;
+}
+.menu-toggle.opened .svg-menu-toggle .line-3 {
+  transform: rotate(-45deg) translateY(0em) translateX(0em);
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+/* hamburger dropdown menu */
+.dd input:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  display: block;
+  background: #c63d0f;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition-duration: 0.2s;
+  -webkit-transform: scaleX(0);
+  -webkit-transform-origin: bottom left;
+  -webkit-transition-duration: 0.2s;
+}
+.dd input {
+  top: 0;
+  opacity: 0;
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.dd input:hover {
+  cursor: pointer;
+}
+.dd input:hover ~ .dd-a {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+.dd input:checked:after {
+  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+}
+.dd input:checked ~ .dd-c {
+  transform: scaleY(1);
+  -webkit-transform: scaleY(1);
+}
+.dd-a span {
+  color: #c63d0f;
+}
+.dd-c {
+  display: block;
+  position: absolute;
+  right: 0;
+  background: transparent;
+  height: auto;
+  transform: scaleY(0);
+  transform-origin: top left;
+  transition-duration: 0.2s;
+  -webkit-transform: scaleY(0);
+  -webkit-transform-origin: top left;
+  -webkit-transition-duration: 0.2s;
+}
+.dd-c ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.dd-c li {
+  margin-bottom: 5px;
+  word-break: keep-all;
+  white-space: nowrap;
+  display: block;
+  position: relative;
+}
+.dd-c a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+.dd-c a:before {
+  z-index: 0;
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  transform-origin: top left;
+  -webkit-transform-origin: top left;
+  background: darkgrey;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+}
+.dd-c a span {
+  display: block;
+  position: relative;
+  font-size: 13pt;
+  font-family: inherit;
+
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.dd-c a:hover:before {
+  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+}
+.dd-c a:hover span {
+  color: white;
+}
+
+/* overlay effect */
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* overlay contact message form */
+#overlayContactMsgForm {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  overflow-y: scroll;
+}
+
+/* hamburger menu bar icon size */
+#hamburgerMenu .menu-toggle svg {
+  width: 5vmin;
+  height: 5vmin;
+}
+
+/* hamburger menu list font size */
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+  #details-cont .getStarted {
+    width: 40vw;
+  }
+  #details-cont .backBtns {
+    font-size: 2.3vmin;
+  }
+
+  #details-cli .getStarted {
+    width: 40vw;
+  }
+  #details-cli .backBtns {
+    font-size: 2.3vmin;
+  }
+
+  .contactInfo-2 svg {
+    width: 60vw;
+  }
+  .contactInfo-2 img {
+    width: 4vh;
+    height: 4vh;
+  }
+  .contactInfo-2 div {
+    margin-left: 0;
+    margin-right: 0;
+    margin-left: -8vw;
+    display: inline-flex;
+  }
+
+  .contactInfo-2 div:first-of-type {
+    margin-left: -1vw;
+  }
+}
+
+@media only screen and (width: 280px) and (orientation: portrait) {
+  #details-cont .getStarted {
+    width: 40vw;
+  }
+
+  #details-cont .backBtns {
+    font-size: 2.8vmin;
+  }
+
+  #details-cli .getStarted {
+    width: 40vw;
+  }
+
+  #details-cli .backBtns {
+    font-size: 2.8vmin;
+  }
+
+  .contactInfo-2 svg {
+    width: 60vw;
+  }
+  .contactInfo-2 img {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  .contactInfo-2 div {
+    margin-left: -8vw;
+    display: inline-flex;
+  }
+}
+
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+  #details-cli .getStarted {
+    width: 40vw;
+  }
+  #details-cli .backBtns {
+    font-size: 2.1vmin;
+  }
+}
+
+@media only screen and (height: 280px) and (orientation: landscape) {
+  #details-cont .getStarted {
+    width: 40vw;
+  }
+
+  #details-cont .backBtns {
+    font-size: 2.8vmin;
+  }
+}
+
+@media only screen and (min-width: 700px) and (orientation: portrait) {
+  .contactInfo-2 span {
+    font-size: 3.5vh;
+  }
+
+  .contactInfo-2 svg {
+    width: 60vw;
+  }
+  .contactInfo-2 img {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  .contactInfo-2 div {
+    margin-left: -8vw;
+    display: inline-flex;
+  }
+}
+
+@media only screen and (min-width: 700px) and (orientation: landscape) {
+  .contactInfo-2 img {
+    width: 6vmin;
+    height: 6vmin;
+  }
+  .contactInfo-2 span {
+    font-size: 4.5vh;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (orientation: portrait) {
+  .contactInfo-2 svg {
+    width: 60vw;
+  }
+  .contactInfo-2 img {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  .contactInfo-2 div {
+    margin-left: -8vw;
+    display: inline-flex;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (orientation: landscape) {
+  #details-cli .getStarted {
+    width: 35vw;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (min-height: 1024px) and (orientation: landscape) {
+}
+
+/* iPhone X portrait mode */
+@media only screen and (width: 375px) and (height: 812px) and (orientation: portrait) {
+  .contactInfo-2 div {
+    font-size: 2.5vh;
+    margin-left: -8vw;
+    display: inline-flex;
+  }
+
+  #details-cands .backBtns {
+    font-size: 2.8vmin;
+  }
+}
+
+/* Galaxy fold portrait */
+@media only screen and (width: 280px) and (height: 653px) and (orientation: portrait) {
+  .contactInfo-2 div {
+    font-size: 2.5vh;
+  }
+
+  .contactInfo-2 div {
+    margin-left: -8vw;
+    display: inline-flex;
+  }
+}
+
+/* Galaxy fold landscape */
+@media only screen and (width: 653px) and (height: 280px) and (orientation: landscape) {
+  .contactInfo-2 div {
+    font-size: 6vh;
+  }
+}
+
+/* iPad */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
+}
+
+/* iPad pro */
+/*Portrait*/
+@media only screen and (min-width: 1024px) and (orientation: portrait) {
+  /* Your Styles... */
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
+}
+
+/* iphone 5/SE landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  /* styles*/
+  body {
+    width: 100vh;
+    transform: rotate(-90deg);
+  }
+}

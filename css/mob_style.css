@@ -1,0 +1,276 @@
+@media only screen and (min-width: 320px) {
+	/* Small screen, non-retina */
+	.title {
+		font-size: 3vmax;
+	}
+	.mbr-text {
+		font-size: 2.2vmax;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
+	only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px),
+	only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px),
+	only screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+	only screen and (min-resolution: 192dpi) and (min-width: 320px),
+	only screen and (min-resolution: 2dppx) and (min-width: 320px) {
+	/* Small screen, retina, stuff to override above media query */
+	.title {
+		font-size: 3vmax; /*2.8*/
+	}
+	.mbr-text {
+		font-size: 2vmax; /*1.8*/
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (orientation: portrait),
+	only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px) and (orientation: portrait),
+	only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px) and (orientation: portrait),
+	only screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (orientation: portrait),
+	only screen and (min-resolution: 192dpi) and (min-width: 320px) and (orientation: portrait),
+	only screen and (min-resolution: 2dppx) and (min-width: 320px) and (orientation: portrait) {
+	/* Small screen, retina, stuff to override above media query */
+	.title {
+		font-size: 3.5vmax;
+	}
+	.mbr-text {
+		font-size: 2.4vmax;
+	}
+	.getStarted {
+		/* .page-content svg  */
+		width: 72vw;
+		height: 24vmin;
+		text-shadow: none;
+	}
+
+	.backBtns {
+		width: 48vw;
+		height: 8vw;
+		font-family: 'VenusRising-Regular';
+		border: none;
+		outline: none !important;
+		font-size: 3vmin;
+	}
+
+	.backBtns img {
+		width: 4vmin;
+		height: 3vmin;
+	}
+
+	.contactInfo-2 img {
+		width: 8vmin;
+		height: 8vmin;
+	}
+	.contactInfo-2 svg {
+		width: 60vw;
+		height: 12vw;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	/* Medium screen, non-retina */
+	.title {
+		font-size: 3vmax;
+	}
+	.mbr-text {
+		font-size: 2.6vmax;
+	}
+
+	.contactInfo-2 span {
+		font-size: 3.5vh;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 700px),
+	only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 700px),
+	only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 700px),
+	only screen and (min-device-pixel-ratio: 2) and (min-width: 700px),
+	only screen and (min-resolution: 192dpi) and (min-width: 700px),
+	only screen and (min-resolution: 2dppx) and (min-width: 700px) {
+	/* Medium screen, retina, stuff to override above media query */
+	.mbr-text {
+		font-size: 2vmax; /* 2 vmax */
+	}
+
+	.contactInfo-2 img {
+		width: 6vmin;
+		height: 6vmin;
+	}
+	.contactInfo-2 span {
+		font-size: 4.5vh;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	/* Large screen, non-retina */
+	.title {
+		font-size: 2.6vmax; /* 2.8 */
+	}
+	.mbr-text {
+		font-size: 1.6vmax; /* 1.8 */
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1300px),
+	only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1300px),
+	only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 1300px),
+	only screen and (min-device-pixel-ratio: 2) and (min-width: 1300px),
+	only screen and (min-resolution: 192dpi) and (min-width: 1300px),
+	only screen and (min-resolution: 2dppx) and (min-width: 1300px) {
+	/* Large screen, retina, stuff to override above media query */
+	.mbr-text {
+		font-size: 2vmax;
+	}
+}
+
+/* iPad && iPad Pro landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape),
+	only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+	.title {
+		font-size: 3.6vmax;
+	}
+	.mbr-text {
+		font-size: 2.6vmax;
+	}
+}
+
+/* iPhone X & pixel2 XL landscape */
+@media only screen and (max-device-width: 823px) and (min-device-width: 375px) and (orientation: landscape) {
+	.title {
+		font-size: 2.4vmax;
+	}
+	.mbr-text {
+		font-size: 1.8vmax; /* 2 vmax */
+	}
+}
+
+/* Surface Duo  */
+/* @media only screen and (max-device-width: 720px) and (min-device-width: 540px) {
+	.title {
+		font-size: 4vmax;
+	}
+	.mbr-text {
+		font-size: 2.5vmax;
+	}
+} */
+
+/* Galaxy Fold */
+/* @media only screen and (max-device-width: 653px) and (min-device-width: 280px) {
+	.title {
+		font-size: 2.5vmax;
+	}
+	.mbr-text {
+		font-size: 1.6vmax;
+	}
+}
+@media only screen and (max-device-width: 653px) and (min-device-width: 280px) and (orientation: portrait) {
+	.title {
+		font-size: 2.8vmax;
+	}
+	.mbr-text {
+		font-size: 2vmax;
+	}
+
+	.getStarted {
+		width: 60vw;
+		height: 15vw;
+	}
+
+	.backBtns {
+		width: 48vw;
+		height: 8vh;
+		font-family: 'VenusRising-Regular';
+		border: none;
+		outline: none !important;
+		font-size: 3vmin;
+	}
+
+	.backBtns img {
+		width: 4vmin;
+		height: 3vmin;
+	}
+} */
+
+@media only screen and (orientation: portrait) {
+	.contactInfo-3 div {
+		font-size: 6vmin;
+		font-weight: 100;
+		color: white;
+	}
+
+	.contactInfo-3 img {
+		width: 10vmin;
+		height: 8vmin;
+	}
+
+	.contactInfo-3 svg {
+		width: 70vw;
+		height: 24vmin;
+	}
+	
+	#fl-contact svg {
+		width: 6vmin;
+	}
+
+	#fl-contact span {
+		font-size: 3vmin;
+	}
+
+	#fl-back img {
+
+		width: 4vmin;
+	}
+
+	#fl-back span {
+		font-size: 5vmin;
+	}
+}
+
+@media only screen and (max-device-width: 1366px) and (orientation: landscape){
+	#fl-contact svg {
+		width: 6vmin;
+	}
+
+	#fl-contact span {
+		font-size: 3vmin;
+	}
+
+	#fl-back img {
+
+		width: 4vmin;
+	}
+
+	#fl-back span {
+		font-size: 5vmin;
+	}
+}
+
+/* Some device odd behavior solution */
+
+/* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	/* For portrait layouts only */
+	body {
+		height: 100vw;
+		transform: rotate(90deg);
+	}
+}
+
+/* iPad pro */
+/*Portrait*/
+@media only screen and (min-width: 1024px) and (orientation: portrait) {
+	/* Your Styles... */
+	body {
+		height: 100vw;
+		transform: rotate(90deg);
+	}
+}
+
+/* iphone 5/SE landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+	/* styles*/
+	body {
+		width: 100vh;
+		transform: rotate(-90deg);
+	}
+}

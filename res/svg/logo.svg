@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 12.7 12.7"
+   height="48"
+   width="48">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#f2f2f2;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2829" />
+    </marker>
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient2825">
+      <stop
+         id="stop2823"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <path
+       d="m 10.564106,2.0790457 a 5.9999998,5.9999998 0 0 0 -8.4850605,0.085787 5.9999998,5.9999998 0 0 0 0.085787,8.4850603 5.9999998,5.9999998 0 0 0 8.4850605,-0.08579 5.9999998,5.9999998 0 0 0 -0.08579,-8.4850602 z M 9.8498328,2.7791153 a 5,5 0 0 1 0.014394,0.014106 5,5 0 0 1 0.4861272,0.5530908 L 5.7704656,8.0086806 4.4712932,6.7355154 9.0063317,2.1189134 A 5,5 0 0 1 9.8498328,2.7791153 Z M 11.077299,4.6946939 A 5,5 0 0 1 9.9357172,9.864227 5,5 0 0 1 8.6375031,10.818325 L 6.8157089,9.0329999 Z M 7.5552597,1.5079745 3.4260499,5.7111961 1.8659357,4.1823128 A 5,5 0 0 1 2.7932213,2.8647118 5,5 0 0 1 7.5552597,1.5079745 Z M 1.399301,5.7740767 7.0554992,11.317047 A 5,5 0 0 1 2.8647118,9.9357174 5,5 0 0 1 1.399301,5.7740767 Z"
+       style="fill:#f2f2f2;stroke:#7b7b7b;stroke-width:0.029;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path869" />
+  </g>
+</svg>

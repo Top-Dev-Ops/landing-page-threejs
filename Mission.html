@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mission</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- import bootstrap 4 -->
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        position: relative;
+        overflow: auto;
+        background-color: black !important;
+      }
+
+      .title {
+        font-size: 24pt;
+        font-family: "ModernSans-Light", sans-serif !important;
+      }
+
+      .illustration {
+        font-size: 13pt;
+        text-align: justify;
+        font-family: "ModernSans-Light", sans-serif !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="z-index: 2; position: fixed; margin-top: 1vh; margin-left: 2vw">
+      <a href="./"><img src="res/svg/close.svg" width="50vw" /> </a>
+    </div>
+    <div class="container-fluid h-100">
+      <div class="row justify-content-center align-items-center h-25">
+        <div class="title col-sm-12">
+          <p class="text-white">Mission</p>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-sm-8">
+          <p class="text-white illustration">
+            Education and math will fortify our relationships. Relationships not only with our
+            clients but our financial advisors. Advisors are just as misled and misinformed as
+            clients are. Clients can only be expected to know as much as their advisor can teach
+            them. If the advisors are misinformed, mismanaged, and taken advantage of, how can we
+            expect anything different when it comes to the treatment of clients. Continued
+            education, <b>Disruption</b> of the status quo, and steadfast commitment to a better
+            financial strategy, will guide us on our mission of <b><i>CHANGE</i></b
+            >.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- hamburger Menu -->
+    <div
+      class="dd"
+      id="hamburgerMenu"
+      onclick="toggleOverlay()"
+      style="visibility: visible; opacity: 1"
+    >
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false">
+        <span class="screen-reader-text">Menu</span>
+        <svg
+          class="icon icon-menu-toggle"
+          aria-hidden="true"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 100 100"
+        >
+          <defs id="defs4">
+            <filter id="hamglow" x="-50%" y="-50%" height="500%" width="500%">
+              <feDropShadow dx="0" dy="0" stdDeviation="5.9" flood-color="skyblue" />
+            </filter>
+          </defs>
+          <g class="svg-menu-toggle">
+            <g
+              style="opacity: 1; stroke: #000000; stroke-opacity: 1; fill: #030303; fill-opacity: 1"
+              id="g871"
+              filter="url(#hamglow)"
+            >
+              <path
+                d="M 5,13 H 95 V 27 H 5 Z"
+                style="
+                  opacity: 0.700741;
+                  fill: #030303;
+                  fill-opacity: 1;
+                  stroke: #000000;
+                  stroke-width: 1.33417;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-opacity: 1;
+                "
+                id="rect841"
+                filter="url(#hamglow)"
+              />
+              <path
+                d="M 5.0000038,43 H 95.000004 V 57 H 5.0000038 Z"
+                style="
+                  opacity: 0.700741;
+                  fill: #030303;
+                  fill-opacity: 1;
+                  stroke: #000000;
+                  stroke-width: 1.33417;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-opacity: 1;
+                "
+                id="rect841-9"
+                filter="url(#hamglow)"
+              />
+              <path
+                d="M 5,73 H 95 V 87 H 5 Z"
+                style="
+                  opacity: 0.700741;
+                  fill: #030303;
+                  fill-opacity: 1;
+                  stroke: #000000;
+                  stroke-width: 1.33417;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-opacity: 1;
+                "
+                id="rect841-5"
+                filter="url(#hamglow)"
+              />
+            </g>
+
+            <path class="line line-1" d="M5 13h90v14H5z" fill="#c7c5c5" filter="url(#hamglow)" />
+            <path class="line line-2" d="M5 43h90v14H5z" fill="#c7c5c5" filter="url(#hamglow)" />
+            <path class="line line-3" d="M5 73h90v14H5z" fill="#c7c5c5" filter="url(#hamglow)" />
+          </g>
+        </svg>
+      </button>
+      <input type="checkbox" id="hmCheck" />
+      <div class="dd-c">
+        <ul>
+          <li>
+            <a href="Vision.html"><span>Vision</span></a>
+          </li>
+          <li>
+            <a href="Mission.html"><span>Mission</span></a>
+          </li>
+          <li>
+            <a href="Ethos.html"><span>Ethos</span></a>
+          </li>
+          <li>
+            <a href="Welcome.html"><span>About The Website</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- overlay effect -->
+    <div id="overlay" onclick="off()"></div>
+
+    <script src="js/mvew.js"></script>
+  </body>
+</html>
