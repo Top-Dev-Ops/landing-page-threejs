@@ -3,7 +3,7 @@
 
 
 ## Live URL
-Demo URL: https://wedding-bands-react-node-js.vercel.app/
+Demo URL: https://landing-page-threejs.vercel.app/
 
 ## License
 
