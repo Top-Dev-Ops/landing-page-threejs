@@ -3,7 +3,7 @@
 
 
 ## Live URL
-Demo URL: https://landing-page-threejs.vercel.app/
+Demo URL: https://landing-page-threejs.vercel.app/<br />
 Available on https://fitzgrp.com
 
 ## License
